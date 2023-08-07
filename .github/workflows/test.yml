@@ -6,6 +6,6 @@ jobs:
     strategy:
       matrix:
         target: [dev, stage, prod]
-    uses: vinodduri/learn-github-actions/.github/workflows/main.yml
+    uses: vinodduri/learn-github-actions/.github/workflows/main.yml@main
     with:
       target: ${{ matrix.target }}
