@@ -6,6 +6,6 @@ jobs:
     strategy:
       matrix:
         target: [dev, stage, prod]
-    uses: octocat/octo-repo/.github/workflows/deployment.yml@main
+    uses: vinodduri/learn-github-actions/.github/workflows/main.yml
     with:
       target: ${{ matrix.target }}
